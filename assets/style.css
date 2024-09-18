@@ -100,10 +100,12 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+
+/*Changement de contraste, constaté dans lighthouse */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	color: #fff; 
+	background-color: #6C6C40;
+	border-radius: 0;
 }
 
 .active-tag {
