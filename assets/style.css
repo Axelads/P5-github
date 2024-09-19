@@ -113,6 +113,10 @@ background-color:#6C6C40;
 border-radius:0
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .active-tag {
 color:#fff;
 background-color:#BEB45A;
@@ -140,7 +144,8 @@ position:absolute;
 width:100%;
 height:100%;
 object-fit:cover;
-padding:.5em
+padding:.5em;
+cursor: pointer;
 }
 
 .mg-prev,.mg-next {
