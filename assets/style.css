@@ -200,16 +200,19 @@ display:flex;
 padding:2em 0
 }
 
-.service {
+.service, article {
 background-color:#fff;
 max-width:390px;
-width:30%;
 height:337px;
 padding:1em;
 display:flex;
 flex-direction:column;
 justify-content:space-between;
 z-index:1
+}
+
+.container article {
+    padding: 0;
 }
 
 #contact {
@@ -283,17 +286,13 @@ margin-top:0;
 margin-bottom:1em
 }
 
-#about-me li,#about-me p {
+#about-me h3,#about-me p {
 width:100%;
 margin-bottom: 10px;
 }
 }
 
-.container li {
-    list-style-type: none;
-}
-
-.service__description li, .service__price li {
+.service__description h3, .service__price h3 {
     font-size: 26px;
     font-family: 'Inter';
     font-style: normal;
@@ -327,10 +326,6 @@ z-index:-1
 .about-me__title {
 text-align:center;
 margin-top:1em
-}
-
-.about-me__introduction li {
-    width: 100% !important;
 }
 
 #services .container {
