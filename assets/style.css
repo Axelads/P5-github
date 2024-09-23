@@ -40,8 +40,14 @@ text-decoration:none;
 color:#000
 }
 
+.social-link {
+    display: inline-block;
+}
+
 .social-link img {
-width:20px
+    display: block; 
+    width: 20px;
+    height: auto;
 }
 
 #about {
