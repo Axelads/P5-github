@@ -6302,7 +6302,7 @@ border-left-color:rgba(0,0,0,0.25)
 .bs-popover-start > .popover-arrow::after,.bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after {
 right:1px;
 border-width:.5rem 0 .5rem .5rem;
-border-left-color:#fff
+border-left-color:red
 }
 
 .popover-header {
