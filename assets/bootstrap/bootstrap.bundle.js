@@ -3756,7 +3756,6 @@
   const EVENT_HIDDEN$3 = `hidden${EVENT_KEY$6}`;
   const EVENT_SHOW$3 = `show${EVENT_KEY$6}`;
   const EVENT_SHOWN$3 = `shown${EVENT_KEY$6}`;
-  const EVENT_RESIZE = `resize${EVENT_KEY$6}`;
   const EVENT_CLICK_DISMISS = `click.dismiss${EVENT_KEY$6}`;
   const EVENT_KEYDOWN_DISMISS$1 = `keydown.dismiss${EVENT_KEY$6}`;
   const EVENT_MOUSEUP_DISMISS = `mouseup.dismiss${EVENT_KEY$6}`;
